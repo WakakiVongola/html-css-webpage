@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 10px;
+}
+
+.enTete {
+    display: flex;
+    flex: row;
+    justify-content: center;
+    background-color: #EAEAEA;
+    padding: 20px;
+}
+
+.section_1 {
+    background-color: #f6f6f6;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section_1 button {
+    background: #9356DC;
+    border: none;
+    width: 200px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+h2 {
+    width: 275px;
+    height: 31px;
+}
+
+.section_2 {
+    margin: 0 200px;
+}
+
+.section_2_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    /* Ajouté pour aligner verticalement */
+}
+
+.section_2_content_div {
+    background-color: #F6F6F6;
+    padding: 5px 20px;
+}
+
+.section_2_content_div span {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 10px;
+    padding-right: 50px;
+}
+.restau{
+    width: 400px;
+    height: auto;
+    /* background-color:  */
+}
+
+.restau_images {
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+}
+.section_3{
+    margin: 0 200px;
+}
+.section_3_list{
+    display: grid;
+    /* background-color: #9356DC; */
+    justify-content: space-evenly;
+    justify-items: center;
+    padding: auto;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+/* Styles pour section_3_list_content */
+.section_3_list_content {
+    display: flex;
+    justify-content: space-between; /* Pour séparer le texte et l'image */
+    align-items: center; /* Aligne verticalement le contenu */
+    padding: 10px; /* Espacement interne */
+    background-color: rebeccapurple; /* Optionnel: couleur de fond */
+    /* border-top: 1px solid #eaeaea; Ligne pour séparer chaque section */
+}
+
+.section_3_list_content div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.section_3_list_content p {
+    margin: 5px 0; /* Espacement entre les paragraphes */
+    font-size: 1rem;
+    color: #333; /* Couleur du texte */
+}
+
+.section_3_list_content img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Animation au survol */
+}
+
+.section_3_list_content img:hover {
+    opacity: 0.8; /* Effet au survol */
+}
